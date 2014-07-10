@@ -1,3 +1,4 @@
+
 module SpreeProductAssembly
   module Generators
     class InstallGenerator < Rails::Generators::Base
@@ -8,7 +9,7 @@ module SpreeProductAssembly
       end
 
       def add_javascripts
-        append_file "vendor/assets/javascripts/spree/backend/all.js", "//= require spree/backend/spree_product_assembly\n"
+        append_file "app/assets/javascripts/admin/all.js", "//= require spree/backend/spree_product_assembly\n"
       end
 
       def run_migrations
