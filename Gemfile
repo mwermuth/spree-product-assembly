@@ -5,11 +5,11 @@ gemspec
 gem 'pry-rails'
 gem 'pg'
 
-gem 'spree', branch: '2-2-stable'
+gem 'spree', branch: '2-0-stable'
 
 group :assets do
-  gem 'coffee-rails', '~> 4.0.0'
-  gem 'sass-rails', '~> 4.0.0'
+  gem 'coffee-rails', '~> 3.2.2'
+  gem 'sass-rails', '~> 3.2.3'
 end
 
 group :test do
